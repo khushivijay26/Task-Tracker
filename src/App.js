@@ -5,6 +5,7 @@ import AddTask from "./components/AddTask";
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
+  const [localTask, setlocalTask] = useState([])
   const [tasks, setTasks] = useState([
     {
       "id": 1,
